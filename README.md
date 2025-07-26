@@ -1,24 +1,6 @@
-# Додати проект на GitHub
-
-На гітхабі обираю новий проект, далі
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
-git push -u origin main
-
-Після цього всі зміни можна додавати
-git add .
-git commit -m "Some changes"
-git push
-npm run deploy
-
-Нижче чернетка для README готового проекту
-
 # The project was created with Vite + TypeScript.
 
-[Demo](https://vasyl-zhyliakov.github.io/Tako/)
+[Demo](https://vasyl-zhyliakov.github.io/product-editing-page/)
 
 # Technologies used
 
@@ -26,29 +8,18 @@ npm run deploy
 - CSS3
 - Sass(SCSS)
 - BEM methodology
-- JavaScript
 - Vite
-- Swiper.js
-- GSAP MotionPathPlugin
 
 # Features
 
-Responsive Design – Built with a mobile-first approach, ensuring seamless performance across various devices.
-
-Adaptive Layout – The design dynamically adjusts to different screen sizes:
-
-- The design < 1920px
-- Desktop > 1440px
-- Small desktop > 1024px
-- Tablet > 768px
-- Mobile > 375px
+- The design = 1500px
 
 # Follow these steps to run the project locally:
 
 - Clone the repository:
-  git clone https://github.com/Vasyl-Zhyliakov/Tako.git
+  git clone https://github.com/Vasyl-Zhyliakov/product-editing-page.git
 - Navigate to the project directory:
-  cd Tako
+  cd product-editing-page
 - Install the dependencies (Make sure you have Node.js installed):
   npm install
 - Start the development server:
