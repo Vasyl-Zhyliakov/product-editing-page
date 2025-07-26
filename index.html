@@ -4,10 +4,326 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Product editing page</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="body">
+    <main>
+      <div class="card"  >
+        <div class="card__header">
+          <div class="card__id">
+              G112082
+          </div>
+          <nav class="card__nav-block">
+            <div class="card__edit-button">
+              <div class="card__edit-icon">            </div>
+              <p class="card__edit-text">Edit</p>
+            </div>
+            <div class="card__nav-separator"></div>
+            <div class="card__nav-button card__nav-button--left"></div>
+            <div class="card__nav-button card__nav-button--right"></div>
+            <div class="card__nav-button card__nav-button--maximize"></div>
+            <div class="card__nav-button card__nav-button--close"></div>
+        </div>
+
+        <div class="card__main-content">
+          <div class="card__info-block">
+            <div class="card__info-row card__info-row--icon-round">
+              <p class="card__info-row-name">Brand</p>
+              <p class="card__info-row-value">NEC</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Model/Series</p>
+              <p class="card__info-row-value">P401W</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Devise P/N</p>
+              <p class="card__info-row-value">NP-P401W / NP23LP+</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Dev. Type</p>
+              <p class="card__info-row-value">2013,4000,1280,16:10,LCD</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">RNK</p>
+              <p class="card__info-row-value">237</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Min Price</p>
+              <p class="card__info-row-value">57,19</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Max Price</p>
+              <p class="card__info-row-value">100,97</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Quantity</p>
+              <p class="card__info-row-value">3 376</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">EPrq</p>
+              <p class="card__info-row-value">65</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">EA4q</p>
+              <p class="card__info-row-value">6</p>
+            </div>
+
+            <div class="card__info-row card__info-row--icon-square">
+              <p class="card__info-row-name">Photo_device</p>
+              <p class="card__info-row-value">https://drive.google.com...</p>
+            </div>
+          </div>
+
+          <div class="card__info-block">
+            <div class="card__info-row card__info-row--icon-round">
+              <p class="card__info-row-name">Sku</p>
+              <p class="card__info-row-value">???/P,Ne_P401W/??G112082</p>
+            </div>
+
+            <div class="card__info-row card__info-row--icon-round">
+              <p class="card__info-row-name">L-user</p>
+              <p class="card__info-row-value">Iryna</p>
+            </div>
+
+            <div class="card__info-row card__info-row--icon-round">
+              <p class="card__info-row-name">Category</p>
+              <p class="card__info-row-value">Projector</p>
+            </div>
+
+            <div class="card__info-row card__info-row--icon-round">
+              <p class="card__info-row-name">E-user</p>
+              <p class="card__info-row-value">Script</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Green_id</p>
+              <p class="card__info-row-value">Y</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Edit_at</p>
+              <p class="card__info-row-value">30.8.2024 12:32</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Create_at</p>
+              <p class="card__info-row-value">30.8.2024 12:32</p>
+            </div>
+
+            <div class="card__info-row card__info-row--icon-square">
+              <p class="card__info-row-name">Amazon Listing Src</p>
+              <p class="card__info-row-value">https://www.amazon.com...</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">ELCCq</p>
+              <p class="card__info-row-value">0</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Amazq</p>
+              <p class="card__info-row-value">9</p>
+            </div>
+
+            <div class="card__info-row">
+              <p class="card__info-row-name">Notes</p>
+              <p class="card__info-row-value">--------------------</p>
+            </div>
+          </div>
+
+          <div class="card__pictures">
+            <div class="card__picture-block">
+              <div class="card__picture-title">Photo_device</div>
+              <img class="card__image" src="./src/images/image-1.png" alt="product image">
+            </div>
+
+            <div class="card__picture-block">
+              <div class="card__picture-title">Photo_data_plate</div>
+              <img class="card__image" src="./src/images/image-2.png" alt="product image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card__tables-block">
+          <div class="card__table-block">
+            <table class="card__table">
+              <caption class="card__table-caption">
+                <span class="card__table-caption-text card__table-caption-text--6">List Location</span>
+              </caption>
+
+              <thead class="card__table-header">
+                <tr class="card__table-row card__table-row--header">
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--id">ID</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--brand">Brand</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--category">Category</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--device">Device P/N</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--gty">gty</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--condition">Condition</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--edit">Edit user</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--notes">Notes</th>
+                </tr>
+              </thead>
+
+              <tbody class="card__table-body">
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">G112082</td>
+                  <td class="card__table-cell">NEC</td>
+                  <td class="card__table-cell">Projectors</td>
+                  <td class="card__table-cell">CP34B</td>
+                  <td class="card__table-cell">52</td>
+                  <td class="card__table-cell">U/ref</td>
+                  <td class="card__table-cell">Script</td>
+                  <td class="card__table-cell card__table-cell--with-icon">No lamp</td>
+                </tr>
+
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">G112082</td>
+                  <td class="card__table-cell">NEC</td>
+                  <td class="card__table-cell">Projectors</td>
+                  <td class="card__table-cell">CP34B</td>
+                  <td class="card__table-cell">52</td>
+                  <td class="card__table-cell">U/ref</td>
+                  <td class="card__table-cell">Script</td>
+                  <td class="card__table-cell card__table-cell--with-icon">No lamp</td>
+                </tr>
+
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">G112082</td>
+                  <td class="card__table-cell">NEC</td>
+                  <td class="card__table-cell">Projectors</td>
+                  <td class="card__table-cell">CP34B</td>
+                  <td class="card__table-cell">52</td>
+                  <td class="card__table-cell">U/ref</td>
+                  <td class="card__table-cell">Script</td>
+                  <td class="card__table-cell card__table-cell--with-icon">No lamp</td>
+                </tr>
+
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">G112082</td>
+                  <td class="card__table-cell">NEC</td>
+                  <td class="card__table-cell">Projectors</td>
+                  <td class="card__table-cell">CP34B</td>
+                  <td class="card__table-cell">52</td>
+                  <td class="card__table-cell">U/ref</td>
+                  <td class="card__table-cell">Script</td>
+                  <td class="card__table-cell card__table-cell--with-icon">No lamp</td>
+                </tr>
+              </tbody>
+              
+            </table>
+          </div>
+
+          <div class="card__table-block">
+            <table class="card__table">
+              <caption class="card__table-caption">
+                <span class="card__table-caption-text card__table-caption-text--53">list ebay vision listings</span>
+              </caption>
+
+              <thead class="card__table-header">
+                <tr class="card__table-row card__table-row--header">
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--listing-id">Listing_id</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--sku">SKU</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--condition-id">condition_id</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--product-id">product_id</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--title">title</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--price">price</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--listing-qty">listing_qty</th>
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--inventory-q">inventory_q</th>
+                </tr>
+              </thead>
+
+              <tbody class="card__table-body">
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">325064386872</td>
+                  <td class="card__table-cell">SRQ/P,Ne_ME331X...</td>
+                  <td class="card__table-cell">UEG122535</td>
+                  <td class="card__table-cell">G122535</td>
+                  <td class="card__table-cell">3300 ANSI 3LCD Projector 1080p...</td>
+                  <td class="card__table-cell">114,27</td>
+                  <td class="card__table-cell">274</td>
+                  <td class="card__table-cell">3 376</td>
+                </tr>
+
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">325064386872</td>
+                  <td class="card__table-cell">SRQ/P,Ne_ME331X...</td>
+                  <td class="card__table-cell">UEG122535</td>
+                  <td class="card__table-cell">G122535</td>
+                  <td class="card__table-cell">3300 ANSI 3LCD Projector 1080p...</td>
+                  <td class="card__table-cell">114,27</td>
+                  <td class="card__table-cell">274</td>
+                  <td class="card__table-cell">3 376</td>
+                </tr>
+
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">325064386872</td>
+                  <td class="card__table-cell">SRQ/P,Ne_ME331X...</td>
+                  <td class="card__table-cell">UEG122535</td>
+                  <td class="card__table-cell">G122535</td>
+                  <td class="card__table-cell">3300 ANSI 3LCD Projector 1080p...</td>
+                  <td class="card__table-cell">114,27</td>
+                  <td class="card__table-cell">274</td>
+                  <td class="card__table-cell">3 376</td>
+                </tr>
+
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">325064386872</td>
+                  <td class="card__table-cell">SRQ/P,Ne_ME331X...</td>
+                  <td class="card__table-cell">UEG122535</td>
+                  <td class="card__table-cell">G122535</td>
+                  <td class="card__table-cell">3300 ANSI 3LCD Projector 1080p...</td>
+                  <td class="card__table-cell">114,27</td>
+                  <td class="card__table-cell">274</td>
+                  <td class="card__table-cell">3 376</td>
+                </tr>
+              </tbody>
+              
+            </table>
+          </div>
+
+          <div class="card__table-block">
+            <table class="card__table">
+              <caption class="card__table-caption">
+                <span class="card__table-caption-text card__table-caption-text--1">same products</span>
+              </caption>
+
+              <thead class="card__table-header">
+                <tr class="card__table-row card__table-row--header">
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--original-id">Original_id</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--same-id">same_id</th> 
+                  <th class="card__table-cell card__table-cell-header card__table-cell-header--fk-edit-employee">fk_edit_employee</th> 
+                </tr>
+              </thead>
+
+              <tbody class="card__table-body">
+                <tr class="card__table-row card__table-row--body">
+                  <td class="card__table-cell">G112082</td>
+                  <td class="card__table-cell">G900559</td>
+                  <td class="card__table-cell card__table-cell--with-icon">Script</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card__control-block">
+          <div class="card__control-button card__control-button--light">Expand</div>
+          <div class="card__control-button card__control-button--dark">Add</div>
+        </div>
+      </div>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
